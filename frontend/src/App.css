@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007bff;
+  padding: 12px 24px;
+  color: white;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.nav-left a,
+.nav-right button,
+.icon-btn {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-left a:hover {
+  text-decoration: underline;
+}
+
+.nav-right button:hover,
+.icon-btn:hover {
+  background-color: white;
+  color: #007bff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.user-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.icon-btn {
+  font-size: 18px;
+  vertical-align: middle;
+}
